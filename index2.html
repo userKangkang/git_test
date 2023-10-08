@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- what language your document is -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git 操作尝试</title>
+    <!-- title and meta help google to search for useful messages -->
+</head>
+<body>
+    <div id="signupPage">
+        <h1>Sign up for our newsletter!</h1>
+        <p>Enter your email below to receive updates on our latest products.</p>
+        <input type="email" placeholder="Email" />
+        <button>Sign up</button>
+    </div>
+
+    <b>This is bold!</b>
+    <br/><i>This is italicized!</i>
+    <!-- 继承 -->
+    <b>This text is bold, and <i>italicized!</i></b>
+    
+    <!-- p adds a line-break before and after the text! -->
+    <p>Text!</p>
+
+    <a href="https://webatberkeley.org/">
+        <button>
+            <!-- You will recognize the previous note -->
+            <p>Go to Web Dev at Berkeley's site</p>
+        </button>
+    </a>
+
+    <img src="https://webatberkeley.org/static/media/logo.5e2a6b7a.png" alt="Web Dev at Berkeley Logo" width="200px" height="200px">
+
+    <div>
+        <input /> <!-- default text -->
+        <input type="color" /> <!-- color picker -->
+        <input type="file" />
+        <input type="number" />
+        <input type="datetime-local" />
+        <input type="radio" />
+        <input type="checkbox" />
+    </div>
+
+    <div>
+        <select id="farm-animals">
+          <option class="animal" value="pig">Pig</option>
+          <option class="animal" value="cow">Cow</option>
+          <option class="animal" value="rooster">Rooster</option>
+        </select>
+    </div>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <a href="#signupPage">
+        <!-- 虽然和css的id选择器一样格式，但是实际上这个是html的锚点链接  -->
+        <button>Sign up for our newsletter!</button>
+    </a>
+
+    <!-- id is usually set to div for the purpose of linking the parts of website by hash. -->
+
+    <!-- form can send the data to the server. -->
+    <form>
+        <input type="text" />
+        <textarea></textarea>
+      </form>
+
+
+      <!-- placeholder: text when user haven't input anything yet. -->
+      <textarea
+      id="textarea-id"
+      placeholder="this is temporary text"
+      rows="4" 
+    ></textarea> <!-- rows: how many lines of text area can be seen. -->
+
+    <!-- comment is helpful when you want to recall what your code is doing. -->
+</body>
+</html>
