@@ -1,0 +1,68 @@
+p{
+    color: red;
+    font-weight: bold;
+}
+/* The name of classes should be "what the thing is", not "what it looks like". */
+/* Selector html is better than * */
+/* OR Grouping is SPACE, AND Grouping is squishing. */
+
+/* 
+texts:
+color,
+font-size,
+font-weight,
+font-family,
+text-decoration,
+text-align,
+*/
+
+/* 
+borders:
+border-style,
+border-weight,
+border-color,
+border-radius,
+border-top-right-bottom-left,
+*/
+
+/* 
+positions:
+static--follow the normal flow,
+fixed--relative to the browser window, and will not move when the window is scrolled,
+relative--positioned relative to its default static position,
+absolute--relative to the nearest positioned ancestor,
+sticky--like relative and fixed at the same time,
+*/
+
+/* 
+Sizing:
+height/width
+Units:
+px
+%--relative to the parent element
+em--relative to the font-size of the element
+vh/vw--relative to the viewport(usage is strongly recommended against.强烈建议不要使用)
+*/
+
+/* 
+background:
+-color,
+-image,
+-position--where the image goes relative to viewpoint.
+-repeat--whether to repeat the image or not.
+-attachment--whether the image scrolls with the page or not.
+*/
+
+/* 
+color:
+English words,
+RGB,RGBA,HEX
+*/
+
+/* 
+Box Model:
+height/width--content,
+padding--the space between the content and the border,
+border--the border,
+margin--the space between the border and the outside,
+*/
